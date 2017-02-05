@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Web bluetooth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+    <script src="bower_components/chartjs-plugin-annotation/chartjs-plugin-annotation.min.js"></script>
 </head>
 <body>
-    <h1>Web bluetooth</h1>
-
-    <button id="scanBtn">Scan</button>
+<div id="container">
+    <div id="statusText">GET &#x2764;</div>
+    <canvas id="breathLine"></canvas>
+    <canvas id="heartRateLine"></canvas>
+</div>
 </body>
 </html>
-
+<script src="heartRateSensor.js"></script>
 <script src="app.js"></script>

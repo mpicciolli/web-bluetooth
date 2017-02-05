@@ -1,0 +1,21 @@
+{
+  "name": "cardiacCoherence",
+  "authors": [
+    "Mathieu <mathieu.picciolli@sfr.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chart.js": "^2.4.0",
+    "chartjs-plugin-annotation": "^0.5.3"
+  }
+}
